@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.main{
+    width: 100%;
+    height: 100vh;
+    background: url(../Images/building-4884852_1920.jpg) center center;
+   background-size: cover;
+}
+.overlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.title{
+    font-size: 2.5rem;
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+    margin-top: 10px;
+}
+
+.col{
+    margin: 40px auto 0px auto;
+    
+    width: 1000px;
+
+    display: flex;
+    
+    justify-content: center;
+}
+.col div{
+    width: 250px;
+    text-align: center;
+}
+input{
+    height: 50px;
+    width: 60%;
+    background-color: rgb(255, 255, 255, 0.9);
+    border-color: transparent;
+    border-radius: 5px;
+    font-size: 40px;
+    text-align: center;
+}
